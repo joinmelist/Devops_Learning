@@ -1,7 +1,7 @@
 #!/bin/bash
 << comment
 
-Information :- this script checking service file status and restart service if service stop 
+Information :- this script checking service file status and restart service if service stop also add cron for auto checking after 1 hr or any other .  
 version :- 0.3
 
 comment
@@ -38,4 +38,6 @@ do
         status_check $i
 
 done
+
+
 
