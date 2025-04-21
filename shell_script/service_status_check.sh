@@ -31,7 +31,7 @@ fi
 
 #status_check $1
 
-list=("cross_market_websocket.service" "cross_market_websocket.socket" "websocket.service" "websocket.socket")
+list=("websocket2.service" "websocket2.socket" "websocket.service" "websocket.socket")
 for i in ${list[@]}
 do
         echo "$i status checking..."
