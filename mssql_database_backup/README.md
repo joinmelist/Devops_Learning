@@ -24,7 +24,6 @@ This project automates the process of backing up MSSQL databases and uploading t
 
 ```bash
 git clone https://github.com/joinmelist/Devops_Learning.git
-cd shell_script
 cd mssql-drive-backup
 ```
 
